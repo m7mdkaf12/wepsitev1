@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:poppins,serif;
+}
+
+body{
+background:#0a0224;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin:2rem auto;
+max-width:1200px;
+}
+.line{
+width:100%;
+height:2px;
+background:white;
+margin-top:10px;
+}
+.logo-container{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.logo{
+width:110px;
+}
+
+.logomain{
+color:#eeeeee;
+font-size:1.5rem;
+}
+
+.pagesN ul{
+display:flex;
+list-style:none;
+gap:2rem;
+}
+
+.pagesN a{
+text-decoration:none;
+color:#eeeeee;
+font-size:1rem;
+}
+
+.pagesN a:hover{
+color:#00abd5;
+}
+
+.contact{
+width:100%;
+display:flex;
+flex-direction:column;
+align-items:center;
+margin-top:50px;
+}
+
+.contact h1{
+color:#eeeeee;
+margin-bottom:30px;
+}
+
+.contact-container{
+background:#eeeeee;
+padding:30px;
+width:400px;
+border-radius:6px;
+}
+
+.contact form{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.input-box{
+display:flex;
+flex-direction:column;
+}
+
+.input-box label{
+margin-bottom:5px;
+}
+
+.input-box input,
+.input-box textarea,
+.input-box select{
+padding:8px;
+border:1px solid #999;
+border-radius:4px;
+}
+
+button{
+padding:10px;
+border:none;
+background:#00abd5;
+color:white;
+cursor:pointer;
+border-radius:4px;
+}
+
+button:hover{
+background:#008bb0;
+}
+#translate-btn {
+  padding:8px 15px;
+  margin-left:10px;
+  border:none;
+  background:#00abd5;
+  color:white;
+  border-radius:4px;
+  cursor:pointer;
+  font-size:0.9rem;
+}
+
+#translate-btn:hover {
+  background:#008bb0;
+}

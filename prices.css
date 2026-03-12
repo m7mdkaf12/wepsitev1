@@ -147,4 +147,15 @@ margin-top:10px;
 #translate-btn:hover {
   background:#008bb0;
 }
+.package-btn{
+background-color:#00abd5;
+color:white;
+border:none;
+padding:0.6rem 1.5rem;
+border-radius:5px;
+cursor:pointer;
+}
 
+.package-btn:hover{
+background-color:#008fb3;
+}
